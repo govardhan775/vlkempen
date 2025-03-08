@@ -1,0 +1,48 @@
+2.	Assignment Details
+2.1	User story
+Van Lanschot Kempen is designing a new Know Your Client (KYC) solution in Azure. The goal is to ingest, process and serve the data. Your task is to design and implement a simplified version of this system while taking full ownership of the architectural and data modelling decisions.
+2.2	Data Ingestion
+Create sample CSV files that represent the source data. For example:  
+
+clients.csv containing fields such as:
+•	client_id
+•	name
+•	age
+•	country
+transactions.csv containing fields such as:
+•	transaction_id
+•	client_id
+•	transaction_amount
+•	transaction_date
+Feel free to add additional tables and attributes
+
+Output: Using Python, load these CSV files into DataFrames.
+2.3	Data Modeling 
+Design a data model that captures:
+•	Customer information.
+•	Transaction details.
+•	Risk events (including scores, trigger reasons, and evaluation timestamps).
+
+Requirements:
+•	Ensure the design is scalable and flexible for future enhancements (e.g., additional risk factors).
+•	Provide an ER diagram (tables/attributes/relations) of your data model. For this you can use Draw.io or another tool. 
+2.4	Data Processing
+Design and implement a risk-scoring pipeline with the below requirements (feel free to extend or adjust based on your design):
+
+Join & Enrichment: 
+•	Combine your data sources.
+Risk Scoring:
+•	Apply business rules such as flagging high transaction amounts (e.g., transactions >10,000) or clients from high-risk countries.
+
+Output: Produce an output dataset containing client risk scores and details of triggered risk events.
+2.5	Orchestration
+Demonstrate how you would structure the overall pipeline. This could be a main script or a modular set of functions.
+2.6	Architecture
+Create an architectural diagram (using draw.io or a similar tool) that illustrates how the solution could look like in our cloud environment (Azure & Databricks), please cover:
+•	Data sources, ingestion methods, transformation steps, storage and serving.
+2.7	CI/CD (Optional/Bonus)
+Provide a detailed diagram that shows how you would implement CI/CD for your Azure Databricks project.
+2.8	Documentation
+Include a README or document that explains:
+•	Your design decisions and any trade-offs made.
+•	Ideas for future improvements and enhancements.
