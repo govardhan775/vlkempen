@@ -45,4 +45,4 @@ Provide a detailed diagram that shows how you would implement CI/CD for your Azu
 2.8	Documentation
 Include a README or document that explains:
 •	Your design decisions and any trade-offs made.
-•	Ideas for future improvements and enhancements.
+•	Ideas for future improvements and enhancements..

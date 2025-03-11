@@ -1,4 +1,3 @@
-import ingest_data
-import process_risk
+import process_risk_v2
 
 print("Data ingestion and risk processing completed successfully!")

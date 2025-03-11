@@ -1,0 +1,4 @@
+event_id,client_id,risk_score,trigger_reason,evaluation_timestamp
+1,2,50,High transaction amount. ,2025-03-09 19:53:12
+2,4,80,High transaction amount. Client from high-risk country. ,2025-03-09 19:53:12
+3,5,50,High transaction amount. ,2025-03-09 19:53:12

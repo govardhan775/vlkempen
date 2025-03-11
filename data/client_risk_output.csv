@@ -1,0 +1,6 @@
+transaction_id,client_id,transaction_amount,transaction_date,name,age,country,risk_score_x,trigger_reason_x,event_id,risk_score_y,trigger_reason_y,evaluation_timestamp,risk_score,trigger_reason
+1001,1,5000,2025-03-10,Frank,35,Netherlands,0,No Risk,,,,,0.0,No Risk
+1002,2,40000,2024-03-05,Bob,42,Germany,50,High Transaction Amount,1.0,50.0,High transaction amount. ,2025-03-09 19:53:12,50.0,High Transaction Amount
+1003,3,800,2024-03-07,Charlie,29,USA,0,No Risk,,,,,0.0,No Risk
+1004,4,25000,2024-03-10,David,50,Russia,90,"High Transaction Amount, High-Risk Country",2.0,80.0,High transaction amount. Client from high-risk country. ,2025-03-09 19:53:12,80.0,"High Transaction Amount, High-Risk Country"
+1005,5,9999,2025-01-10,Jeroen,32,North Korea,40,High-Risk Country,3.0,50.0,High transaction amount. ,2025-03-09 19:53:12,50.0,High-Risk Country
