@@ -1,0 +1,9 @@
+bundle:
+  name: databricks_project
+  targt: environment_name
+
+targets:
+  environment_name:
+    workspace:
+      host: https://adb-xxx.azuredatabricks.net
+    artifacts:./python_scripts/orchestrate_pipeline.py
