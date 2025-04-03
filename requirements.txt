@@ -1,4 +1,4 @@
-2.	Assignment Details
+2.	Assignment Details. 
 2.1	User story
 Van Lanschot Kempen is designing a new Know Your Client (KYC) solution in Azure. The goal is to ingest, process and serve the data. Your task is to design and implement a simplified version of this system while taking full ownership of the architectural and data modelling decisions.
 2.2	Data Ingestion
